@@ -17,9 +17,10 @@ public class Main {
 
         System.out.println(" Student: " + student1.firstName + " " + student1.lastName + " " + student1.group);
         System.out.println(" Student: " + student2.firstName + " " + student2.lastName + " " + student2.group);
-
-
     }
 
+    public String studentToString(Student student1, Student student2) {
+      return ;
+    }
 
 }
