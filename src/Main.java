@@ -15,11 +15,11 @@ public class Main {
         student2.lastName = "Jonson";
         student2.group = 31;
 
+        System.out.println(" Student: " + student1.firstName + " " + student1.lastName + " " + student1.group);
+        System.out.println(" Student: " + student2.firstName + " " + student2.lastName + " " + student2.group);
+
 
     }
 
-    public static String  studentToString(Student student){
-        System.out.println(student.firstName+student.lastName+student.group);
-        return student.firstName;
-    }
+
 }
